@@ -282,13 +282,13 @@ window.animalsDE = [
     ]
 },
 {
-    "name": "Steinböckchen",
+    "name": "Steinbockantilope",
     "image": "images/steenbok.jpeg",
     "options": ["Hase", "Steinböckchen", "Kaninchen"],
     "weight": "12 kg",
     "height": "0.6 Meter",
     "age": "8 Jahre",
-    "spot": "Steinböckchen sind oft allein in offenen Graslandschaften zu sehen.",
+    "spot": "Steinbockantilopen sind oft allein in offenen Graslandschaften zu sehen.",
     "fun_facts": [
         "Steinböckchen sind sehr kleine Antilopen.",
         "Sie können sich sehr gut im hohen Gras verstecken.",
