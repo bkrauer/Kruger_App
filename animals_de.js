@@ -284,7 +284,7 @@ window.animalsDE = [
 {
     "name": "Steinbockantilope",
     "image": "images/steenbok.jpeg",
-    "options": ["Hase", "Steinböckchen", "Kaninchen"],
+    "options": ["Hase", "Steinbockantilope", "Kaninchen"],
     "weight": "12 kg",
     "height": "0.6 Meter",
     "age": "8 Jahre",
