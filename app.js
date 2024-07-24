@@ -121,7 +121,6 @@ function displayAnimal() {
         <p><strong>${translations[currentLanguage].weight}:</strong> ${animal.weight}</p>
         <p><strong>${translations[currentLanguage].height}:</strong> ${animal.height}</p>
         <p><strong>${translations[currentLanguage].age}:</strong> ${animal.age}</p>
-        <p><strong>${translations[currentLanguage].whereToSpot}:</strong> ${animal.spot}</p>
     `;
 
     const optionsHtml = animal.options.map(option =>
@@ -143,11 +142,14 @@ function checkAnswer(selectedOption) {
     } else {
         document.getElementById('result').innerHTML = `${translations[currentLanguage].incorrect} ${animal.name}.`;
     }
-    displayFunFacts(animal);
+    displayAnimalInfoAndFunFacts(animal);
     document.getElementById('next-button').style.display = 'block';
 }
 
-function displayFunFacts(animal) {
+function displayAnimalInfoAndFunFacts(animal) {
+    document.getElementById('animal-info').innerHTML += `
+        <p><strong>${translations[currentLanguage].whereToSpot}:</strong> ${animal.spot}</p>
+    `;
     const factsHtml = `
         <h3>${translations[currentLanguage].funFacts}:</h3>
         <ul>
