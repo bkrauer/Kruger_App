@@ -56,214 +56,214 @@ const animalsDE = [
         ]
     },
     {
-        "name": "Nashorn",
-        "image": "images/rhino.jpg",
-        "options": ["Katze", "Ginsterkatze", "Nashorn"],
-        "weight": "2300 kg",
-        "height": "1.8 Meter",
-        "age": "50 Jahre",
-        "spot": "Du hast die besten Chancen, ein Nashorn in der Dämmerung oder im Morgengrauen auf offenen Feldern grasen zu sehen.",
-        "fun_facts": [
-            "Nashörner haben dicke, schützende Haut.",
-            "Sie lieben es, sich im Schlamm zu suhlen.”,
-            “Nashörner haben ein schlechtes Sehvermögen, aber einen starken Geruchssinn.”
-]
-  },
-{
-  “name”: “Büffel”,
-  “image”: “images/buffalo.jpg”,
-  “options”: [“Büffel”, “Antilope”, “Bison”],
-  “weight”: “900 kg”,
-  “height”: “1.7 Meter”,
-  “age”: “20 Jahre”,
-  “spot”: “Büffel sind oft in Herden in der Nähe von Wasserquellen zu finden.”,
-  “fun_facts”: [
-    “Büffel haben einen starken Geruchssinn.”,
-    “Sie gehören zu den ‘Big Five’-Tieren.”,
-    “Büffel sind sehr stark und können sich gegen Raubtiere verteidigen.”
-  ]
+    "name": "Nashorn",
+    "image": "images/rhino.jpg",
+    "options": ["Katze", "Ginsterkatze", "Nashorn"],
+    "weight": "2300 kg",
+    "height": "1.8 Meter",
+    "age": "50 Jahre",
+    "spot": "Du hast die besten Chancen, ein Nashorn in der Dämmerung oder im Morgengrauen auf offenen Feldern grasen zu sehen.",
+    "fun_facts": [
+        "Nashörner haben dicke, schützende Haut.",
+        "Sie lieben es, sich im Schlamm zu suhlen.”,
+        “Nashörner haben ein schlechtes Sehvermögen, aber einen starken Geruchssinn.”
+    ]
 },
 {
-  “name”: “Leopard”,
-  “image”: “images/leopard.jpg”,
-  “options”: [“Löwe”, “Gepard”, “Leopard”],
-  “weight”: “90 kg”,
-  “height”: “0.75 Meter”,
-  “age”: “17 Jahre”,
-  “spot”: “Leoparden sind oft in Bäumen oder dichten Buschbereichen zu sehen.”,
-  “fun_facts”: [
-    “Leoparden sind ausgezeichnete Kletterer.”,
-    “Sie sind sehr einsame Tiere.”,
-    “Leoparden können Beute, die doppelt so schwer ist wie sie selbst, auf einen Baum schleppen.”
-  ]
+    "name": "Büffel",
+    "image": "images/buffalo.jpg",
+    "options": ["Büffel", "Antilope", "Bison"],
+    "weight": "900 kg",
+    "height": "1.7 Meter",
+    "age": "20 Jahre",
+    "spot": "Büffel sind oft in Herden in der Nähe von Wasserquellen zu finden.",
+    "fun_facts": [
+        "Büffel haben einen starken Geruchssinn.",
+        "Sie gehören zu den ‘Big Five’-Tieren.”,
+        "Büffel sind sehr stark und können sich gegen Raubtiere verteidigen."
+    ]
 },
 {
-  “name”: “Gepard”,
-  “image”: “images/cheetah.jpg”,
-  “options”: [“Leopard”, “Gepard”, “Löwe”],
-  “weight”: “72 kg”,
-  “height”: “0.9 Meter”,
-  “age”: “12 Jahre”,
-  “spot”: “Geparden sind normalerweise in offenen Ebenen und Savannen zu finden.”,
-  “fun_facts”: [
-    “Geparden sind die schnellsten Landtiere.”,
-    “Sie können bis zu 70 mph rennen.”,
-    “Geparden haben schwarze ‘Tränenstreifen’ im Gesicht.”
-  ]
+    "name": "Leopard",
+    "image": "images/leopard.jpg",
+    "options": ["Löwe", "Gepard", "Leopard"],
+    "weight": "90 kg",
+    "height": "0.75 Meter",
+    "age": "17 Jahre",
+    "spot": "Leoparden sind oft in Bäumen oder dichten Buschbereichen zu sehen.",
+    "fun_facts": [
+        "Leoparden sind ausgezeichnete Kletterer.",
+        "Sie sind sehr einsame Tiere.",
+        "Leoparden können Beute, die doppelt so schwer ist wie sie selbst, auf einen Baum schleppen."
+    ]
 },
 {
-  “name”: “Nilpferd”,
-  “image”: “images/hippo.jpg”,
-  “options”: [“Elefant”, “Nilpferd”, “Nashorn”],
-  “weight”: “3200 kg”,
-  “height”: “1.5 Meter”,
-  “age”: “45 Jahre”,
-  “spot”: “Nilpferde sind häufig in Flüssen und Seen zu finden.”,
-  “fun_facts”: [
-    “Nilpferde verbringen den größten Teil ihres Tages im Wasser.”,
-    “Sie können bis zu 5 Minuten die Luft anhalten.”,
-    “Nilpferde sind im Wasser sehr territorial.”
-  ]
+    "name": "Gepard",
+    "image": "images/cheetah.jpg",
+    "options": ["Leopard", "Gepard", "Löwe"],
+    "weight": "72 kg",
+    "height": "0.9 Meter",
+    "age": "12 Jahre",
+    "spot": "Geparden sind normalerweise in offenen Ebenen und Savannen zu finden.",
+    "fun_facts": [
+        "Geparden sind die schnellsten Landtiere.",
+        "Sie können bis zu 70 mph rennen.",
+        "Geparden haben schwarze ‘Tränenstreifen’ im Gesicht."
+    ]
 },
 {
-  “name”: “Gnu”,
-  “image”: “images/wildebeest.jpg”,
-  “options”: [“Büffel”, “Gnu”, “Antilope”],
-  “weight”: “250 kg”,
-  “height”: “1.4 Meter”,
-  “age”: “20 Jahre”,
-  “spot”: “Du kannst Gnus in großen Herden auf grasbewachsenen Ebenen sehen.”,
-  “fun_facts”: [
-    “Gnus wandern in großen Gruppen.”,
-    “Sie haben einen einzigartigen, grunzenden Ruf.”,
-    “Ihre Kälber können kurz nach der Geburt laufen.”
-  ]
+    "name": "Nilpferd",
+    "image": "images/hippo.jpg",
+    "options": ["Elefant", "Nilpferd", "Nashorn"],
+    "weight": "3200 kg",
+    "height": "1.5 Meter",
+    "age": "45 Jahre",
+    "spot": "Nilpferde sind häufig in Flüssen und Seen zu finden.",
+    "fun_facts": [
+        "Nilpferde verbringen den größten Teil ihres Tages im Wasser.",
+        "Sie können bis zu 5 Minuten die Luft anhalten.",
+        "Nilpferde sind im Wasser sehr territorial."
+    ]
 },
 {
-  “name”: “Hyäne”,
-  “image”: “images/hyena.jpg”,
-  “options”: [“Hund”, “Wolf”, “Hyäne”],
-  “weight”: “80 kg”,
-  “height”: “0.8 Meter”,
-  “age”: “25 Jahre”,
-  “spot”: “Hyänen sind oft in Clans in Savannen und offenen Wäldern zu sehen.”,
-  “fun_facts”: [
-    “Hyänen haben einen kräftigen Biss.”,
-    “Sie sind bekannt für ihre ‘lachenden’ Geräusche.”,
-    “Hyänen sind ausgezeichnete Aasfresser.”
-  ]
+    "name": "Gnu",
+    "image": "images/wildebeest.jpg",
+    "options": ["Büffel", "Gnu", "Antilope"],
+    "weight": "250 kg",
+    "height": "1.4 Meter",
+    "age": "20 Jahre",
+    "spot": "Du kannst Gnus in großen Herden auf grasbewachsenen Ebenen sehen.",
+    "fun_facts": [
+        "Gnus wandern in großen Gruppen.",
+        "Sie haben einen einzigartigen, grunzenden Ruf.",
+        "Ihre Kälber können kurz nach der Geburt laufen."
+    ]
 },
 {
-  “name”: “Krokodil”,
-  “image”: “images/crocodile.jpg”,
-  “options”: [“Eidechse”, “Krokodil”, “Alligator”],
-  “weight”: “900 kg”,
-  “height”: “5 Meter”,
-  “age”: “70 Jahre”,
-  “spot”: “Krokodile sind in Flüssen, Seen und Feuchtgebieten zu finden.”,
-  “fun_facts”: [
-    “Krokodile können bis zu einer Stunde die Luft anhalten.”,
-    “Sie haben kräftige Kiefer und scharfe Zähne.”,
-    “Krokodile sind alte Reptilien, die seit Millionen von Jahren existieren.”
-  ]
+    "name": "Hyäne",
+    "image": "images/hyena.jpg",
+    "options": ["Hund", "Wolf", "Hyäne"],
+    "weight": "80 kg",
+    "height": "0.8 Meter",
+    "age": "25 Jahre",
+    "spot": "Hyänen sind oft in Clans in Savannen und offenen Wäldern zu sehen.",
+    "fun_facts": [
+        "Hyänen haben einen kräftigen Biss.",
+        "Sie sind bekannt für ihre ‘lachenden’ Geräusche.",
+        "Hyänen sind ausgezeichnete Aasfresser."
+    ]
 },
 {
-  “name”: “Geier”,
-  “image”: “images/vulture.jpg”,
-  “options”: [“Adler”, “Eule”, “Geier”],
-  “weight”: “12 kg”,
-  “height”: “1 Meter”,
-  “age”: “30 Jahre”,
-  “spot”: “Geier sind oft hoch am Himmel oder auf Bäumen sitzend zu sehen.”,
-  “fun_facts”: [
-    “Geier sind die Reinigungskräfte der Natur.”,
-    “Sie haben ein ausgezeichnetes Sehvermögen.”,
-    “Geier können in großen Höhen fliegen.”
-  ]
+    "name": "Krokodil",
+    "image": "images/crocodile.jpg",
+    "options": ["Eidechse", "Krokodil", "Alligator"],
+    "weight": "900 kg",
+    "height": "5 Meter",
+    "age": "70 Jahre",
+    "spot": "Krokodile sind in Flüssen, Seen und Feuchtgebieten zu finden.",
+    "fun_facts": [
+        "Krokodile können bis zu einer Stunde die Luft anhalten.",
+        "Sie haben kräftige Kiefer und scharfe Zähne.",
+        "Krokodile sind alte Reptilien, die seit Millionen von Jahren existieren."
+    ]
 },
 {
-  “name”: “Pavian”,
-  “image”: “images/baboon.jpg”,
-  “options”: [“Affe”, “Gorilla”, “Pavian”],
-  “weight”: “40 kg”,
-  “height”: “0.75 Meter”,
-  “age”: “30 Jahre”,
-  “spot”: “Paviane sind in Truppen in Savannen und Wäldern zu finden.”,
-  “fun_facts”: [
-    “Paviane haben lange, scharfe Zähne.”,
-    “Sie sind sehr soziale Tiere.”,
-    “Paviane haben Backentaschen, um Nahrung zu speichern.”
-  ]
+    "name": "Geier",
+    "image": "images/vulture.jpg",
+    "options": ["Adler", "Eule", "Geier"],
+    "weight": "12 kg",
+    "height": "1 Meter",
+    "age": "30 Jahre",
+    "spot": "Geier sind oft hoch am Himmel oder auf Bäumen sitzend zu sehen.",
+    "fun_facts": [
+        "Geier sind die Reinigungskräfte der Natur.",
+        "Sie haben ein ausgezeichnetes Sehvermögen.",
+        "Geier können in großen Höhen fliegen."
+    ]
 },
 {
-  “name”: “Impala”,
-  “image”: “images/impala.jpg”,
-  “options”: [“Hirsch”, “Antilope”, “Impala”],
-  “weight”: “70 kg”,
-  “height”: “1 Meter”,
-  “age”: “15 Jahre”,
-  “spot”: “Impalas sind oft in großen Herden in Savannen und offenen Wäldern zu sehen.”,
-  “fun_facts”: [
-    “Impalas können bis zu 10 Meter weit springen.”,
-    “Sie haben ein auffälliges ‘M’-Muster auf ihrem Hinterteil.”,
-    “Impalas sind sehr schnelle Läufer.”
-  ]
+    "name": "Pavian",
+    "image": "images/baboon.jpg",
+    "options": ["Affe", "Gorilla", "Pavian"],
+    "weight": "40 kg",
+    "height": "0.75 Meter",
+    "age": "30 Jahre",
+    "spot": "Paviane sind in Truppen in Savannen und Wäldern zu finden.",
+    "fun_facts": [
+        "Paviane haben lange, scharfe Zähne.",
+        "Sie sind sehr soziale Tiere.",
+        "Paviane haben Backentaschen, um Nahrung zu speichern."
+    ]
 },
 {
-  “name”: “Warzenschwein”,
-  “image”: “images/warthog.jpg”,
-  “options”: [“Schwein”, “Warzenschwein”, “Eber”],
-  “weight”: “100 kg”,
-  “height”: “0.85 Meter”,
-  “age”: “15 Jahre”,
-  “spot”: “Warzenschweine sind oft auf offenen Flächen beim Grasen zu sehen.”,
-  “fun_facts”: [
-    “Warzenschweine haben Stoßzähne zum Graben.”,
-    “Sie knien oft, um Gras zu fressen.”,
-    “Warzenschweine können sehr schnell rennen.”
-  ]
+    "name": "Impala",
+    "image": "images/impala.jpg",
+    "options": ["Hirsch", "Antilope", "Impala"],
+    "weight": "70 kg",
+    "height": "1 Meter",
+    "age": "15 Jahre",
+    "spot": "Impalas sind oft in großen Herden in Savannen und offenen Wäldern zu sehen.",
+    "fun_facts": [
+        "Impalas können bis zu 10 Meter weit springen.",
+        "Sie haben ein auffälliges ‘M’-Muster auf ihrem Hinterteil.",
+        "Impalas sind sehr schnelle Läufer."
+    ]
 },
 {
-  “name”: “Strauß”,
-  “image”: “images/ostrich.jpg”,
-  “options”: [“Emu”, “Strauß”, “Pfau”],
-  “weight”: “150 kg”,
-  “height”: “2.8 Meter”,
-  “age”: “40 Jahre”,
-  “spot”: “Strauße sind in offenen Savannen- und Wüstengebieten zu finden.”,
-  “fun_facts”: [
-    “Strauße sind die größten Vögel.”,
-    “Sie können nicht fliegen, aber sehr schnell rennen.”,
-    “Strauße legen die größten Eier.”
-  ]
+    "name": "Warzenschwein",
+    "image": "images/warthog.jpg",
+    "options": ["Schwein", "Warzenschwein", "Eber"],
+    "weight": "100 kg",
+    "height": "0.85 Meter",
+    "age": "15 Jahre",
+    "spot": "Warzenschweine sind oft auf offenen Flächen beim Grasen zu sehen.",
+    "fun_facts": [
+        "Warzenschweine haben Stoßzähne zum Graben.",
+        "Sie knien oft, um Gras zu fressen.",
+        "Warzenschweine können sehr schnell rennen."
+    ]
 },
 {
-  “name”: “Kudu”,
-  “image”: “images/kudu.jpg”,
-  “options”: [“Hirsch”, “Kudu”, “Elch”],
-  “weight”: “270 kg”,
-  “height”: “1.5 Meter”,
-  “age”: “20 Jahre”,
-  “spot”: “Kudus sind oft in dichten Busch- und Waldgebieten zu finden.”,
-  “fun_facts”: [
-    “Kudus haben schöne, spiralförmige Hörner.”,
-    “Sie können über 2 Meter hoch springen.”,
-    “Kudus sind schüchterne und schwer fassbare Tiere.”
-  ]
+    "name": "Strauß",
+    "image": "images/ostrich.jpg",
+    "options": ["Emu", "Strauß", "Pfau"],
+    "weight": "150 kg",
+    "height": "2.8 Meter",
+    "age": "40 Jahre",
+    "spot": "Strauße sind in offenen Savannen- und Wüstengebieten zu finden.",
+    "fun_facts": [
+        "Strauße sind die größten Vögel.",
+        "Sie können nicht fliegen, aber sehr schnell rennen.",
+        "Strauße legen die größten Eier."
+    ]
 },
 {
-  “name”: “Buschbock”,
-  “image”: “images/bushbuck.jpg”,
-  “options”: [“Antilope”, “Buschbock”, “Hirsch”],
-  “weight”: “80 kg”,
-  “height”: “1 Meter”,
-  “age”: “12 Jahre”,
-  “spot”: “Buschböcke sind oft in dichten Wald- und Buschgebieten zu sehen.”,
-  “fun_facts”: [
-    “Buschböcke sind sehr gute Schwimmer.”,
-    “Sie sind Einzelgänger.”,
-    “Buschböcke haben weiße Flecken und Streifen auf ihrem Körper.”
-  ]
+    "name": "Kudu",
+    "image": "images/kudu.jpg",
+    "options": ["Hirsch", "Kudu", "Elch"],
+    "weight": "270 kg",
+    "height": "1.5 Meter",
+    "age": "20 Jahre",
+    "spot": "Kudus sind oft in dichten Busch- und Waldgebieten zu finden.",
+    "fun_facts": [
+        "Kudus haben schöne, spiralförmige Hörner.",
+        "Sie können über 2 Meter hoch springen.",
+        "Kudus sind schüchterne und schwer fassbare Tiere."
+    ]
+},
+{
+    "name": "Buschbock",
+    "image": "images/bushbuck.jpg",
+    "options": ["Antilope", "Buschbock", "Hirsch"],
+    "weight": "80 kg",
+    "height": "1 Meter",
+    "age": "12 Jahre",
+    "spot": "Buschböcke sind oft in dichten Wald und Buschgebieten zu sehen.”,
+    “fun_facts”: [
+        “Buschböcke sind sehr gute Schwimmer.”,
+        “Sie sind Einzelgänger.”,
+        “Buschböcke haben weiße Flecken und Streifen auf ihrem Körper.”
+        ]
 },
 {
   “name”: “Wasserbock”,
