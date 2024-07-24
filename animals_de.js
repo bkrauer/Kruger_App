@@ -1,5 +1,45 @@
 window.animalsDE = [
 {
+    "name": "Nina",
+    "image": "images/nina.jpeg",
+    "options": ["Nina", "Noura", "Binia"],
+    "weight": "19 kg",
+    "height": "1.25 Meter",
+    "age": "6 Jahre",
+    "spot": "Nina spielt sehr gerne Klavier.",
+    "fun_facts": [
+        "Nina ist schon in der Pfadi.",
+        "Sie isst sehr gerne Glace."
+    ]
+},
+{
+    "name": "Binia",
+    "image": "images/binia.jpeg",
+    "options": ["Nina", "Noura", "Binia"],
+    "weight": "23 kg",
+    "height": "1.25 Meter",
+    "age": "8 Jahre",
+    "spot": "Binia ist Samstags of in der Pfadi zu finden.",
+    "fun_facts": [
+        "Binia fährt sehr gerne Ski.",
+        "Sie isst sehr gerne Kuchen."
+    ]
+},
+{
+    "name": "Noura",
+    "image": "images/noura.jpeg",
+    "options": ["Nina", "Noura", "Binia"],
+    "weight": "23 kg",
+    "height": "1.2 Meter",
+    "age": "8 Jahre",
+    "spot": "Noura ist oft vor dem Küchenkasten mit den Süssigkeiten zu finden. Und in der Nacht beim Kuscheln mit Papi.",
+    "fun_facts": [
+        "Noura bastelt sehr gerne.",
+        "Sie spielt Ukulele und macht Afro-Dance.",
+        "Am liebsten isst sie gefüllte Pastetli."
+    ]
+},
+{
     "name": "Löwe",
     "image": "images/lion.jpeg",
     "options": ["Tiger", "Leopard", "Löwe"],
