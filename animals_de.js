@@ -340,7 +340,7 @@ window.animalsDE = [
 {
     "name": "Gaukleradler",
     "image": "images/bateleur_eagle.jpeg",
-    "options": ["Adler", "Habicht", "Falke"],
+    "options": ["Gaukleradler", "Habicht", "Falke"],
     "weight": "2.5 kg",
     "height": "0.7 Meter",
     "age": "27 Jahre",
