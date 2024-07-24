@@ -2,7 +2,7 @@ let currentLanguage = 'en';
 let animals;
 
 const translations = {
-   en: {
+    en: {
         title: "Kruger National Park Animal Quiz",
         score: "Score",
         nextButton: "Next Animal",
@@ -19,9 +19,9 @@ const translations = {
         funFacts: "Fun Facts"
     },
     de: {
-       title: "Krüger National Park Tier-Quiz",
+        title: "Krüger National Park Tier-Quiz",
         score: "Punkte",
-        nextButton: "Nächsted Tier",
+        nextButton: "Nächstes Tier",
         correct: "Richtig!",
         incorrect: "Leider Falsch. Die richtige Antwort ist",
         quizCompleted: "Quiz fertig!",
@@ -35,66 +35,6 @@ const translations = {
         funFacts: "Fun Facts"
     }
 };
-
-function setLanguage(lang) {
-    currentLanguage = lang;
-    animals = (lang === 'en') ? animalsEN : animalsDE;
-    updateUI();
-}
-
-// ... Der Rest Ihres bestehenden app.js-Codes bleibt unverändert ...
-
-// Initialisieren Sie die Sprache und das Quiz
-setLanguage('en');
-initQuiz();
-
-
-
-
-let currentLanguage = 'en';
-let animals;
-
-const translations = {
-   en: {
-        title: "Kruger National Park Animal Quiz",
-        score: "Score",
-        nextButton: "Next Animal",
-        correct: "Correct!",
-        incorrect: "Incorrect. The correct answer is",
-        quizCompleted: "Quiz Completed!",
-        finalScore: "Your final score is:",
-        outOf: "out of",
-        playAgain: "Play Again",
-        weight: "Weight",
-        height: "Height",
-        age: "Age",
-        whereToSpot: "Where to spot",
-        funFacts: "Fun Facts"
-    },
-    de: {
-       title: "Krüger National Park Tier-Quiz",
-        score: "Punkte",
-        nextButton: "Nächsted Tier",
-        correct: "Richtig!",
-        incorrect: "Leider Falsch. Die richtige Antwort ist",
-        quizCompleted: "Quiz fertig!",
-        finalScore: "Deine Punktezahl ist:",
-        outOf: "von",
-        playAgain: "Nochmals spielen",
-        weight: "Gewicht",
-        height: "Grösse",
-        age: "Alter",
-        whereToSpot: "Wo finde ich es?",
-        funFacts: "Fun Facts"
-    }
-};
-
-function setLanguage(lang) {
-    currentLanguage = lang;
-    animals = (lang === 'en') ? animalsEN : animalsDE;
-    updateUI();
-}
-
 
 let currentAnimalIndex;
 let score = 0;
@@ -102,7 +42,8 @@ let animalsToShow;
 
 function setLanguage(lang) {
     currentLanguage = lang;
-    updateUI();
+    animals = (lang === 'en') ? animalsEN : animalsDE;
+    initQuiz();
 }
 
 function updateUI() {
@@ -193,4 +134,4 @@ function endQuiz() {
 document.getElementById('next-button').addEventListener('click', nextAnimal);
 
 // Start the quiz
-initQuiz();
+setLanguage('en');
