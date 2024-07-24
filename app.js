@@ -1,3 +1,4 @@
+
 let currentLanguage = 'en';
 let animals;
 
@@ -16,7 +17,8 @@ const translations = {
         height: "Height",
         age: "Age",
         whereToSpot: "Where to spot",
-        funFacts: "Fun Facts"
+        funFacts: "Fun Facts",
+        startButton: "Start Quiz"
     },
     de: {
         title: "Krüger National Park Tier-Quiz",
@@ -32,7 +34,8 @@ const translations = {
         height: "Grösse",
         age: "Alter",
         whereToSpot: "Wo finde ich es?",
-        funFacts: "Fun Facts"
+        funFacts: "Fun Facts",
+        startButton: "Quiz starten"
     }
 };
 
@@ -43,23 +46,20 @@ let animalsToShow;
 function setLanguage(lang) {
     currentLanguage = lang;
     animals = (lang === 'en') ? animalsEN : animalsDE;
-    initQuiz();
+    updateUI();
 }
 
 function updateUI() {
     document.getElementById('title').innerText = translations[currentLanguage].title;
     document.getElementById('score').innerText = `${translations[currentLanguage].score}: ${score}`;
     document.getElementById('next-button').innerText = translations[currentLanguage].nextButton;
-    if (currentAnimalIndex < animalsToShow.length) {
-        displayAnimal();
-    }
+    document.getElementById('start-button').innerText = translations[currentLanguage].startButton;
 }
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+function startQuiz() {
+    document.getElementById('start-button').style.display = 'none';
+    document.getElementById('quiz-content').style.display = 'block';
+    initQuiz();
 }
 
 function initQuiz() {
@@ -68,6 +68,7 @@ function initQuiz() {
     currentAnimalIndex = 0;
     score = 0;
     updateUI();
+    displayAnimal();
 }
 
 function displayAnimal() {
