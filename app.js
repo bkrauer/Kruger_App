@@ -8,7 +8,6 @@ let animals = [];
 const translations = {
     en: {
         title: "Kruger National Park Animal Quiz",
-        score: "Score",
         nextButton: "Next Animal",
         correct: "Correct!",
         incorrect: "Wrong! The correct answer is",
@@ -25,7 +24,6 @@ const translations = {
     },
     de: {
         title: "Krüger National Park Tier-Quiz",
-        score: "Punkte",
         nextButton: "Nächstes Tier",
         correct: "Richtig!",
         incorrect: "Leider Falsch. Die richtige Antwort ist",
@@ -62,7 +60,6 @@ function setLanguage(lang) {
 
 function updateUI() {
     document.getElementById('title').innerText = translations[currentLanguage].title;
-    document.getElementById('score').innerText = `${translations[currentLanguage].score}: ${score}`;
     document.getElementById('next-button').innerText = translations[currentLanguage].nextButton;
     document.getElementById('start-button').innerText = translations[currentLanguage].startButton;
 }
@@ -130,6 +127,7 @@ function displayAnimal() {
     document.getElementById('options-container').innerHTML = optionsHtml;
     document.getElementById('result').innerHTML = '';
     document.getElementById('fact-container').innerHTML = '';
+    document.getElementById('where-to-spot-container').innerHTML = '';
     document.getElementById('next-button').style.display = 'none';
 }
 
@@ -147,8 +145,9 @@ function checkAnswer(selectedOption) {
     displayAnimalInfoAndFunFacts(animal);
     document.getElementById('next-button').style.display = 'block';
 }
+
 function displayAnimalInfoAndFunFacts(animal) {
-    document.getElementById('animal-info').innerHTML += `
+    document.getElementById('where-to-spot-container').innerHTML = `
         <p><strong>${translations[currentLanguage].whereToSpot}:</strong> ${animal.spot}</p>
     `;
     const factsHtml = `
@@ -192,3 +191,4 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
