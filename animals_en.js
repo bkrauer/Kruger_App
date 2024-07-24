@@ -107,7 +107,7 @@ window.animalsEN = [
     "spot": "Cheetahs are usually found in open plains and savannahs.",
     "fun_facts": [
       "Cheetahs are the fastest land animals.",
-      "They can run up to 70 mph.",
+      "They can run up to 115 kmh.",
       "Cheetahs have black 'tear marks' on their faces."
     ]
   },
