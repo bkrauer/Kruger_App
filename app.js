@@ -1,13 +1,10 @@
 
-
-// At the end of the file, add:
-console.log("Initial language set to EN");
-setLanguage('en');
-
-
 console.log("App.js loaded");
+
+let animalsEN = [];
+let animalsDE = [];
 let currentLanguage = 'en';
-let animals;
+let animals = [];
 
 const translations = {
     en: {
@@ -51,8 +48,16 @@ let score = 0;
 let animalsToShow;
 
 function setLanguage(lang) {
+    console.log("Setting language to:", lang);
     currentLanguage = lang;
-    animals = (lang === 'en') ? animalsEN : animalsDE;
+    if (lang === 'en' && animalsEN.length > 0) {
+        animals = animalsEN;
+    } else if (lang === 'de' && animalsDE.length > 0) {
+        animals = animalsDE;
+    } else {
+        console.error("Animal data not loaded for language:", lang);
+        return;
+    }
     updateUI();
 }
 
@@ -82,6 +87,24 @@ function initQuiz() {
     score = 0;
     updateUI();
     displayAnimal();
+}
+
+function loadAnimalData() {
+    console.log("Loading animal data");
+    // This assumes that animals_en.js and animals_de.js define animalsEN and animalsDE
+    if (typeof window.animalsEN !== 'undefined') {
+        animalsEN = window.animalsEN;
+    }
+    if (typeof window.animalsDE !== 'undefined') {
+        animalsDE = window.animalsDE;
+    }
+    
+    if (animalsEN.length === 0 && animalsDE.length === 0) {
+        console.error("No animal data loaded!");
+    } else {
+        console.log("Animal data loaded successfully");
+        setLanguage(currentLanguage);
+    }
 }
 
 function displayAnimal() {
@@ -156,3 +179,7 @@ document.getElementById('next-button').addEventListener('click', nextAnimal);
 
 // Start the quiz
 setLanguage('en');
+
+// At the end of app.js
+window.onload = loadAnimalData;
+
