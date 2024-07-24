@@ -209,22 +209,19 @@ const animalsEN = [
       "Impalas are very fast runners."
     ]
   },
-
-
-  
-  {
-   "name": "Warthog",
+{
+    "name": "Warthog",
     "image": "images/warthog.jpg",
     "options": ["Pig", "Warthog", "Boar"],
     "weight": "100 kg",
     "height": "0.85 meters",
     "age": "15 years",
-    "spot": "Warthogs are often seen grazing in open areas.”,
-    “fun_facts”: [
-    “Warthogs have tusks for digging.”,
-    “They often kneel to eat grass.”,
-    “Warthogs can run very fast.”
-]
+    "spot": "Warthogs are often seen grazing in open areas.",
+    "fun_facts": [
+        "Warthogs have tusks for digging.",
+        "They often kneel to eat grass.",
+        "Warthogs can run very fast."
+    ]
 },  
   {
 “name”: “Ostrich”,
