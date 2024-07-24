@@ -209,158 +209,161 @@ const animalsEN = [
       "Impalas are very fast runners."
     ]
   },
+
+
+  
   {
-    "name": "Warthog",
+   "name": "Warthog",
     "image": "images/warthog.jpg",
     "options": ["Pig", "Warthog", "Boar"],
     "weight": "100 kg",
     "height": "0.85 meters",
     "age": "15 years",
-    "spot”: “Warthogs are often seen grazing in open areas.”,
+    "spot": "Warthogs are often seen grazing in open areas.”,
     “fun_facts”: [
-      “Warthogs have tusks for digging.”,
-      “They often kneel to eat grass.”,
-      “Warthogs can run very fast.”
-    ]
-  },
+    “Warthogs have tusks for digging.”,
+    “They often kneel to eat grass.”,
+    “Warthogs can run very fast.”
+]
+},  
   {
-    “name”: “Ostrich”,
-    “image”: “images/ostrich.jpg”,
-    “options”: [“Emu”, “Ostrich”, “Peacock”],
-    “weight”: “150 kg”,
-    “height”: “2.8 meters”,
-    “age”: “40 years”,
-    “spot”: “Ostriches are found in open savannahs and desert areas.”,
-    “fun_facts”: [
-      “Ostriches are the largest birds.”,
-      “They can’t fly but can run very fast.”,
-      “Ostriches lay the largest eggs.”
-    ]
-  },
-  {
-    “name”: “Kudu”,
-    “image”: “images/kudu.jpg”,
-    “options”: [“Deer”, “Kudu”, “Elk”],
-    “weight”: “270 kg”,
-    “height”: “1.5 meters”,
-    “age”: “20 years”,
-    “spot”: “Kudus are often found in dense bush and woodland areas.”,
-    “fun_facts”: [
-      “Kudus have beautiful spiral horns.”,
-      “They can jump over 2 meters high.”,
-      “Kudus are shy and elusive animals.”
-    ]
-  },
-  {
-    “name”: “Bushbuck”,
-    “image”: “images/bushbuck.jpg”,
-    “options”: [“Antelope”, “Bushbuck”, “Deer”],
-    “weight”: “80 kg”,
-    “height”: “1 meter”,
-    “age”: “12 years”,
-    “spot”: “Bushbucks are often seen in dense forest and bush areas.”,
-    “fun_facts”: [
-      “Bushbucks are very good swimmers.”,
-      “They are solitary animals.”,
-      “Bushbucks have white spots and stripes on their bodies.”
-    ]
-  },
-  {
-    “name”: “Waterbuck”,
-    “image”: “images/waterbuck.jpg”,
-    “options”: [“Buffalo”, “Waterbuck”, “Antelope”],
-    “weight”: “250 kg”,
-    “height”: “1.4 meters”,
-    “age”: “18 years”,
-    “spot”: “Waterbucks are often found near water sources.”,
-    “fun_facts”: [
-      “Waterbucks have a white ring around their tail.”,
-      “They secrete a smelly, oily substance to waterproof their fur.”,
-      “Waterbucks are strong swimmers.”
-    ]
-  },
-  {
-    “name”: “Steenbok”,
-    “image”: “images/steenbok.jpg”,
-    “options”: [“Rabbit”, “Steenbok”, “Hare”],
-    “weight”: “12 kg”,
-    “height”: “0.6 meters”,
-    “age”: “8 years”,
-    “spot”: “Steenboks are often seen alone in open grasslands.”,
-    “fun_facts”: [
-      “Steenboks are very small antelopes.”,
-      “They can hide very well in tall grass.”,
-      “Steenboks dig holes to hide from predators.”
-    ]
-  },
-  {
-    “name”: “Sable Antelope”,
-    “image”: “images/sable_antelope.jpg”,
-    “options”: [“Gemsbok”, “Sable Antelope”, “Kudu”],
-    “weight”: “230 kg”,
-    “height”: “1.4 meters”,
-    “age”: “18 years”,
-    “spot”: “Sable antelopes are often seen in woodland savannahs.”,
-    “fun_facts”: [
-      “Sable antelopes have long, curved horns.”,
-      “They are very strong and can defend themselves.”,
-      “Sable antelopes have a glossy black coat.”
-    ]
-  },
-  {
-    “name”: “Nyala”,
-    “image”: “images/nyala.jpg”,
-    “options”: [“Kudu”, “Nyala”, “Impala”],
-    “weight”: “120 kg”,
-    “height”: “1.1 meters”,
-    “age”: “19 years”,
-    “spot”: “Nyalas are often found in dense bush and riverine areas.”,
-    “fun_facts”: [
-      “Nyalas have white stripes on their bodies.”,
-      “They are very shy and elusive.”,
-      “Nyalas make a barking sound when alarmed.”
-    ]
-  },
-  {
-    “name”: “Wild Dog”,
-    “image”: “images/wild_dog.jpg”,
-    “options”: [“Hyena”, “Wild Dog”, “Wolf”],
-    “weight”: “30 kg”,
-    “height”: “0.75 meters”,
-    “age”: “10 years”,
-    “spot”: “Wild dogs are often seen in packs in open plains and woodlands.”,
-    “fun_facts”: [
-      “Wild dogs have large, rounded ears.”,
-      “They are excellent hunters.”,
-      “Wild dogs are very social and live in packs.”
-    ]
-  },
-  {
-    “name”: “Bateleur Eagle”,
-    “image”: “images/bateleur_eagle.jpg”,
-    “options”: [“Eagle”, “Hawk”, “Falcon”],
-    “weight”: “2.5 kg”,
-    “height”: “0.7 meters”,
-    “age”: “27 years”,
-    “spot”: “Bateleur eagles are often seen soaring high in the sky.”,
-    “fun_facts”: [
-      “Bateleur eagles have very short tails.”,
-      “They are acrobatic flyers.”,
-      “Bateleur eagles have bright red faces and legs.”
-    ]
-  },
-  {
-    “name”: “Secretary Bird”,
-    “image”: “images/secretary_bird.jpg”,
-    “options”: [“Crane”, “Secretary Bird”, “Stork”],
-    “weight”: “4 kg”,
-    “height”: “1.3 meters”,
-    “age”: “15 years”,
-    “spot”: “Secretary birds are often seen walking in open grasslands.”,
-    “fun_facts”: [
-      “Secretary birds have long legs and eyelashes.”,
-      “They hunt snakes and other small animals.”,
-      “Secretary birds can fly, but prefer to walk.”
-    ]
-  }
+“name”: “Ostrich”,
+“image”: “images/ostrich.jpg”,
+“options”: [“Emu”, “Ostrich”, “Peacock”],
+“weight”: “150 kg”,
+“height”: “2.8 meters”,
+“age”: “40 years”,
+“spot”: “Ostriches are found in open savannahs and desert areas.”,
+“fun_facts”: [
+“Ostriches are the largest birds.”,
+“They can’t fly but can run very fast.”,
+“Ostriches lay the largest eggs.”
+]
+},
+{
+“name”: “Kudu”,
+“image”: “images/kudu.jpg”,
+“options”: [“Deer”, “Kudu”, “Elk”],
+“weight”: “270 kg”,
+“height”: “1.5 meters”,
+“age”: “20 years”,
+“spot”: “Kudus are often found in dense bush and woodland areas.”,
+“fun_facts”: [
+“Kudus have beautiful spiral horns.”,
+“They can jump over 2 meters high.”,
+“Kudus are shy and elusive animals.”
+]
+},
+{
+“name”: “Bushbuck”,
+“image”: “images/bushbuck.jpg”,
+“options”: [“Antelope”, “Bushbuck”, “Deer”],
+“weight”: “80 kg”,
+“height”: “1 meter”,
+“age”: “12 years”,
+“spot”: “Bushbucks are often seen in dense forest and bush areas.”,
+“fun_facts”: [
+“Bushbucks are very good swimmers.”,
+“They are solitary animals.”,
+“Bushbucks have white spots and stripes on their bodies.”
+]
+},
+{
+“name”: “Waterbuck”,
+“image”: “images/waterbuck.jpg”,
+“options”: [“Buffalo”, “Waterbuck”, “Antelope”],
+“weight”: “250 kg”,
+“height”: “1.4 meters”,
+“age”: “18 years”,
+“spot”: “Waterbucks are often found near water sources.”,
+“fun_facts”: [
+“Waterbucks have a white ring around their tail.”,
+“They secrete a smelly, oily substance to waterproof their fur.”,
+“Waterbucks are strong swimmers.”
+]
+},
+{
+“name”: “Steenbok”,
+“image”: “images/steenbok.jpg”,
+“options”: [“Rabbit”, “Steenbok”, “Hare”],
+“weight”: “12 kg”,
+“height”: “0.6 meters”,
+“age”: “8 years”,
+“spot”: “Steenboks are often seen alone in open grasslands.”,
+“fun_facts”: [
+“Steenboks are very small antelopes.”,
+“They can hide very well in tall grass.”,
+“Steenboks dig holes to hide from predators.”
+]
+},
+{
+“name”: “Sable Antelope”,
+“image”: “images/sable_antelope.jpg”,
+“options”: [“Gemsbok”, “Sable Antelope”, “Kudu”],
+“weight”: “230 kg”,
+“height”: “1.4 meters”,
+“age”: “18 years”,
+“spot”: “Sable antelopes are often seen in woodland savannahs.”,
+“fun_facts”: [
+“Sable antelopes have long, curved horns.”,
+“They are very strong and can defend themselves.”,
+“Sable antelopes have a glossy black coat.”
+]
+},
+{
+“name”: “Nyala”,
+“image”: “images/nyala.jpg”,
+“options”: [“Kudu”, “Nyala”, “Impala”],
+“weight”: “120 kg”,
+“height”: “1.1 meters”,
+“age”: “19 years”,
+“spot”: “Nyalas are often found in dense bush and riverine areas.”,
+“fun_facts”: [
+“Nyalas have white stripes on their bodies.”,
+“They are very shy and elusive.”,
+“Nyalas make a barking sound when alarmed.”
+]
+},
+{
+“name”: “Wild Dog”,
+“image”: “images/wild_dog.jpg”,
+“options”: [“Hyena”, “Wild Dog”, “Wolf”],
+“weight”: “30 kg”,
+“height”: “0.75 meters”,
+“age”: “10 years”,
+“spot”: “Wild dogs are often seen in packs in open plains and woodlands.”,
+“fun_facts”: [
+“Wild dogs have large, rounded ears.”,
+“They are excellent hunters.”,
+“Wild dogs are very social and live in packs.”
+]
+},
+{
+“name”: “Bateleur Eagle”,
+“image”: “images/bateleur_eagle.jpg”,
+“options”: [“Eagle”, “Hawk”, “Falcon”],
+“weight”: “2.5 kg”,
+“height”: “0.7 meters”,
+“age”: “27 years”,
+“spot”: “Bateleur eagles are often seen soaring high in the sky.”,
+“fun_facts”: [
+“Bateleur eagles have very short tails.”,
+“They are acrobatic flyers.”,
+“Bateleur eagles have bright red faces and legs.”
+]
+},
+{
+“name”: “Secretary Bird”,
+“image”: “images/secretary_bird.jpg”,
+“options”: [“Crane”, “Secretary Bird”, “Stork”],
+“weight”: “4 kg”,
+“height”: “1.3 meters”,
+“age”: “15 years”,
+“spot”: “Secretary birds are often seen walking in open grasslands.”,
+“fun_facts”: [
+“Secretary birds have long legs and eyelashes.”,
+“They hunt snakes and other small animals.”,
+“Secretary birds can fly, but prefer to walk.”
+]
+}
 ];
