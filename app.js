@@ -2,7 +2,7 @@ console.log("App.js loaded");
 
 let animalsEN = [];
 let animalsDE = [];
-let currentLanguage = 'en';
+let currentLanguage = 'de';
 let animals = [];
 
 const translations = {
