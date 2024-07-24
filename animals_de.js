@@ -265,6 +265,7 @@
         "Buschböcke haben weiße Flecken und Streifen auf ihrem Körper."
     ]
 },
+
 {
     "name": "Wasserbock",
     "image": "images/waterbuck.jpg",
