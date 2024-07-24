@@ -16,12 +16,14 @@
         #header {
             background-color: #333;
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         #language-selector button {
-            font-size: 1.2em;
-            padding: 10px 20px;
+            font-size: 1em;
+            padding: 5px 10px;
             margin: 5px;
             background-color: #6c757d;
             color: white;
@@ -35,41 +37,40 @@
         #image-container img {
             max-width: 100%;
             height: auto;
+            width: 100%;
+            height: 450px; /* Increased the height by 150% */
         }
-        #options-container {
-            display: inline-block;
-            text-align: left;
+        #options-container, #next-button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
         }
-        #options-container button {
-            margin: 10px;
-            padding: 15px;
-            font-size: 1.2em;
+        #options-container button, #next-button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 1em;
             cursor: pointer;
             background-color: #007bff;
             color: white;
             border: none;
             border-radius: 5px;
         }
-        #options-container button:hover {
+        #options-container button:hover, #next-button:hover {
             background-color: #0056b3;
         }
         #next-button {
-            font-size: 1.5em;
-            padding: 15px 30px;
-            margin-top: 20px;
+            font-size: 1.2em; /* Larger button */
             background-color: #ffc107;
             color: black;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
             display: none;
         }
         #next-button:hover {
             background-color: #e0a800;
         }
         #result {
-            font-size: 2em;
-            margin-top: 20px;
+            font-size: 1.5em;
+            margin-top: 10px;
         }
         #result.correct {
             color: green;
@@ -79,16 +80,29 @@
         }
         #fact-container, #where-to-spot-container {
             text-align: left;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            #header {
+                flex-direction: column;
+                text-align: center;
+            }
+            #image-container img {
+                height: 300px; /* Adjust for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
     <div id="header">
+        <h1 id="title">Kruger National Park Animal Quiz</h1>
         <div id="language-selector">
             <button onclick="setLanguage('en')">EN</button>
             <button onclick="setLanguage('de')">DE</button>
         </div>
-        <h1 id="title">Kruger National Park Animal Quiz</h1>
     </div>
     <div id="app">
         <button id="start-button" onclick="startQuiz()">Start Quiz</button>
@@ -96,10 +110,12 @@
             <div id="image-container"></div>
             <div id="animal-info"></div>
             <div id="options-container"></div>
+            <div id="next-button-container">
+                <button id="next-button" onclick="nextAnimal()">Next Animal</button>
+            </div>
             <div id="result"></div>
             <div id="where-to-spot-container"></div>
             <div id="fact-container"></div>
-            <button id="next-button" onclick="nextAnimal()">Next Animal</button>
         </div>
     </div>
     <script src="animals_en.js"></script>
