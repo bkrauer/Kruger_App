@@ -1,4 +1,11 @@
 
+
+// At the end of the file, add:
+console.log("Initial language set to EN");
+setLanguage('en');
+
+
+console.log("App.js loaded");
 let currentLanguage = 'en';
 let animals;
 
@@ -57,12 +64,18 @@ function updateUI() {
 }
 
 function startQuiz() {
+    console.log("startQuiz function called");
     document.getElementById('start-button').style.display = 'none';
     document.getElementById('quiz-content').style.display = 'block';
     initQuiz();
 }
 
 function initQuiz() {
+    console.log("initQuiz function called");
+    if (!animals || animals.length === 0) {
+        console.error("No animals data loaded!");
+        return;
+    }
     animalsToShow = [...animals];
     shuffleArray(animalsToShow);
     currentAnimalIndex = 0;
@@ -72,7 +85,14 @@ function initQuiz() {
 }
 
 function displayAnimal() {
+    console.log("displayAnimal function called");
+    if (currentAnimalIndex >= animalsToShow.length) {
+        console.log("No more animals to display");
+        endQuiz();
+        return;
+    }
     const animal = animalsToShow[currentAnimalIndex];
+    console.log("Displaying animal:", animal);
     document.getElementById('image-container').innerHTML = `<img src="${animal.image}" alt="${animal.name}">`;
     
     document.getElementById('animal-info').innerHTML = `
