@@ -2,7 +2,7 @@ console.log("App.js loaded");
 
 let animalsEN = [];
 let animalsDE = [];
-let currentLanguage = 'de';
+let currentLanguage = 'de'; // Set default language to German
 let animals = [];
 
 const translations = {
@@ -172,7 +172,7 @@ function endQuiz() {
     document.getElementById('app').innerHTML = `
         <h1>${translations[currentLanguage].quizCompleted}</h1>
         <p>${translations[currentLanguage].finalScore} ${score} ${translations[currentLanguage].outOf} ${animalsToShow.length}</p>
-        <button id="play-again-button" onclick="initQuiz()">${translations[currentLanguage].playAgain}</button>
+        <button id="play-again-button" onclick="startQuiz()">${translations[currentLanguage].playAgain}</button>
     `;
 }
 
@@ -181,7 +181,7 @@ document.getElementById('next-button').addEventListener('click', nextAnimal);
 // Start the quiz
 window.onload = function() {
     loadAnimalData();
-    setLanguage('en');
+    setLanguage('de'); // Set default language to German
 };
 
 // Helper function to shuffle the array
