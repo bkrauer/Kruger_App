@@ -1,17 +1,99 @@
 const animals = [
     {
+        name: "Hyena",
+        image: "images/hyena_2.jpg",
+        options: ["Cat", "Hyena", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Hyena",
+        image: "images/hyena_1.jpg",
+        options: ["Cat", "Genet", "Hyena"],
+        fact: ""
+    },
+    {
+        name: "Zebra",
+        image: "images/zebra_1.jpg",
+        options: ["Cat", "Genet", "Zebra"],
+        fact: ""
+    },
+    {
+        name: "Rhino",
+        image: "images/rhino.jpg",
+        options: ["Cat", "Genet", "Rhino"],
+        fact: ""
+    },
+    {
+        name: "Leopard",
+        image: "images/leopard_2.jpg",
+        options: ["Cat", "Genet", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Leopard",
+        image: "images/leopard_1.jpg",
+        options: ["Cat", "Genet", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Kingfisher",
+        image: "images/kingfisher.jpg",
+        options: ["Kingfisher", "Genet", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Impala",
+        image: "images/impala_1.jpg",
+        options: ["Cat", "Impala", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Hippo",
+        image: "images/hippo_1.jpg",
+        options: ["Hyppo", "Genet", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "Giraffe",
+        image: "images/giraffe.jpg",
+        options: ["Cat", "Genet", "Leopard"],
+        fact: ""
+    },
+    {
+        name: "genet",
+        image: "images/genet.jpg",
+        options: ["Cat", "Giraffe", "Leopard"],
+        fact: ""
+    {
+        name: "Elephant",
+        image: "images/elephant_1.jpg",
+        options: ["Lion", "Elephant", "Leopard"],
+        fact: "African elephants are the largest land animals on Earth. They can live up to 70 years in the wild."
+    },
+        {
+        name: "Buffalo",
+        image: "images/buffalo.jpg",
+        options: ["Lion", "Cheetah", "Buffalo"],
+        fact: "Lions are the only cats that live in groups, called prides. They are apex predators and are known as the 'King of the Jungle'."
+    },
+    {
         name: "Lion",
-        image: "lion.jpg",
+        image: "images/lion.jpg",
+        options: ["Lion", "Cheetah", "Leopard"],
+        fact: "Lions are the only cats that live in groups, called prides. They are apex predators and are known as the 'King of the Jungle'."
+    },
+    {
+        name: "Lion",
+        image: "images/lion_2.jpg",
         options: ["Lion", "Cheetah", "Leopard"],
         fact: "Lions are the only cats that live in groups, called prides. They are apex predators and are known as the 'King of the Jungle'."
     },
     {
         name: "Elephant",
-        image: "elephant.jpg",
-        options: ["Rhino", "Hippo", "Elephant"],
+        image: "images/elephant.jpg",
+        options: ["Cat", "Genet", "Elephant"],
         fact: "African elephants are the largest land animals on Earth. They can live up to 70 years in the wild."
-    },
-    // Add more animals here
+    }
 ];
 
 let currentAnimal = 0;
