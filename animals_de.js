@@ -1,61 +1,60 @@
-const animalsDE = [
-    {
-        "name": "Löwe",
-        "image": "images/lion.jpg",
-        "options": ["Tiger", "Leopard", "Löwe"],
-        "weight": "250 kg",
-        "height": "1.2 Meter",
-        "age": "15 Jahre",
-        "spot": "Löwen sind in offenen Savannenbereichen zu sehen, besonders am frühen Morgen oder späten Nachmittag.",
-        "fun_facts": [
-            "Löwen sind die einzigen Katzen, die in Gruppen, sogenannten Rudeln, leben.",
-            "Das Brüllen eines Löwen kann bis zu 8 Kilometer weit gehört werden.",
-            "Männliche Löwen haben majestätische Mähnen."
-        ]
-    },
-    {
-        "name": "Elefant",
-        "image": "images/elephant.jpg",
-        "options": ["Elefant", "Giraffe", "Büffel"],
-        "weight": "6000 kg",
-        "height": "3.3 Meter",
-        "age": "70 Jahre",
-        "spot": "Elefanten sind in der Nähe von Wasserlöchern und Flüssen zu finden, besonders in der Trockenzeit.",
-        "fun_facts": [
-            "Elefanten benutzen ihren Rüssel zum Trinken und Aufnehmen von Nahrung.",
-            "Sie haben das größte Gehirn aller Landtiere.",
-            "Elefanten sind ausgezeichnete Schwimmer."
-        ]
-    },
-    {
-        "name": "Giraffe",
-        "image": "images/giraffe.jpg",
-        "options": ["Zebra", "Giraffe", "Antilope"],
-        "weight": "1200 kg",
-        "height": "5.5 Meter",
-        "age": "25 Jahre",
-        "spot": "Giraffen sind oft beim Fressen an Bäumen in offenen Wäldern zu sehen.",
-        "fun_facts": [
-            "Giraffen haben die längsten Hälse aller Tiere.",
-            "Jede Giraffe hat ein einzigartiges Fleckenmuster.",
-            "Sie schlafen im Stehen."
-        ]
-    },
-    {
-        "name": "Zebra",
-        "image": "images/zebra.jpg",
-        "options": ["Pferd", "Zebra", "Esel"],
-        "weight": "400 kg",
-        "height": "1.4 Meter",
-        "age": "25 Jahre",
-        "spot": "Zebras sind in grasbewachsenen Ebenen und Savannen zu finden.",
-        "fun_facts": [
-            "Jedes Zebra hat ein einzigartiges Streifenmuster.",
-            "Sie gehören zur Pferdefamilie.",
-            "Zebras laufen im Zickzack, um Raubtieren zu entkommen."
-        ]
-    },
-    {
+{
+    "name": "Löwe",
+    "image": "images/lion.jpg",
+    "options": ["Tiger", "Leopard", "Löwe"],
+    "weight": "250 kg",
+    "height": "1.2 Meter",
+    "age": "15 Jahre",
+    "spot": "Löwen sind in offenen Savannenbereichen zu sehen, besonders am frühen Morgen oder späten Nachmittag.",
+    "fun_facts": [
+        "Löwen sind die einzigen Katzen, die in Gruppen, sogenannten Rudeln, leben.",
+        "Das Brüllen eines Löwen kann bis zu 8 Kilometer weit gehört werden.",
+        "Männliche Löwen haben majestätische Mähnen."
+    ]
+},
+{
+    "name": "Elefant",
+    "image": "images/elephant.jpg",
+    "options": ["Elefant", "Giraffe", "Büffel"],
+    "weight": "6000 kg",
+    "height": "3.3 Meter",
+    "age": "70 Jahre",
+    "spot": "Elefanten sind in der Nähe von Wasserlöchern und Flüssen zu finden, besonders in der Trockenzeit.",
+    "fun_facts": [
+        "Elefanten benutzen ihren Rüssel zum Trinken und Aufnehmen von Nahrung.",
+        "Sie haben das größte Gehirn aller Landtiere.",
+        "Elefanten sind ausgezeichnete Schwimmer."
+    ]
+},
+{
+    "name": "Giraffe",
+    "image": "images/giraffe.jpg",
+    "options": ["Zebra", "Giraffe", "Antilope"],
+    "weight": "1200 kg",
+    "height": "5.5 Meter",
+    "age": "25 Jahre",
+    "spot": "Giraffen sind oft beim Fressen an Bäumen in offenen Wäldern zu sehen.",
+    "fun_facts": [
+        "Giraffen haben die längsten Hälse aller Tiere.",
+        "Jede Giraffe hat ein einzigartiges Fleckenmuster.",
+        "Sie schlafen im Stehen."
+    ]
+},
+{
+    "name": "Zebra",
+    "image": "images/zebra.jpg",
+    "options": ["Pferd", "Zebra", "Esel"],
+    "weight": "400 kg",
+    "height": "1.4 Meter",
+    "age": "25 Jahre",
+    "spot": "Zebras sind in grasbewachsenen Ebenen und Savannen zu finden.",
+    "fun_facts": [
+        "Jedes Zebra hat ein einzigartiges Streifenmuster.",
+        "Sie gehören zur Pferdefamilie.",
+        "Zebras laufen im Zickzack, um Raubtieren zu entkommen."
+    ]
+},
+{
     "name": "Nashorn",
     "image": "images/rhino.jpg",
     "options": ["Katze", "Ginsterkatze", "Nashorn"],
@@ -65,8 +64,8 @@ const animalsDE = [
     "spot": "Du hast die besten Chancen, ein Nashorn in der Dämmerung oder im Morgengrauen auf offenen Feldern grasen zu sehen.",
     "fun_facts": [
         "Nashörner haben dicke, schützende Haut.",
-        "Sie lieben es, sich im Schlamm zu suhlen.”,
-        “Nashörner haben ein schlechtes Sehvermögen, aber einen starken Geruchssinn.”
+        "Sie lieben es, sich im Schlamm zu suhlen.",
+        "Nashörner haben ein schlechtes Sehvermögen, aber einen starken Geruchssinn."
     ]
 },
 {
@@ -79,7 +78,7 @@ const animalsDE = [
     "spot": "Büffel sind oft in Herden in der Nähe von Wasserquellen zu finden.",
     "fun_facts": [
         "Büffel haben einen starken Geruchssinn.",
-        "Sie gehören zu den ‘Big Five’-Tieren.”,
+        "Sie gehören zu den 'Big Five'-Tieren.",
         "Büffel sind sehr stark und können sich gegen Raubtiere verteidigen."
     ]
 },
@@ -108,7 +107,7 @@ const animalsDE = [
     "fun_facts": [
         "Geparden sind die schnellsten Landtiere.",
         "Sie können bis zu 70 mph rennen.",
-        "Geparden haben schwarze ‘Tränenstreifen’ im Gesicht."
+        "Geparden haben schwarze 'Tränenstreifen' im Gesicht."
     ]
 },
 {
@@ -149,7 +148,7 @@ const animalsDE = [
     "spot": "Hyänen sind oft in Clans in Savannen und offenen Wäldern zu sehen.",
     "fun_facts": [
         "Hyänen haben einen kräftigen Biss.",
-        "Sie sind bekannt für ihre ‘lachenden’ Geräusche.",
+        "Sie sind bekannt für ihre 'lachenden' Geräusche.",
         "Hyänen sind ausgezeichnete Aasfresser."
     ]
 },
@@ -205,7 +204,7 @@ const animalsDE = [
     "spot": "Impalas sind oft in großen Herden in Savannen und offenen Wäldern zu sehen.",
     "fun_facts": [
         "Impalas können bis zu 10 Meter weit springen.",
-        "Sie haben ein auffälliges ‘M’-Muster auf ihrem Hinterteil.",
+        "Sie haben ein auffälliges 'M'-Muster auf ihrem Hinterteil.",
         "Impalas sind sehr schnelle Läufer."
     ]
 },
@@ -258,109 +257,109 @@ const animalsDE = [
     "weight": "80 kg",
     "height": "1 Meter",
     "age": "12 Jahre",
-    "spot": "Buschböcke sind oft in dichten Wald und Buschgebieten zu sehen.”,
-    “fun_facts”: [
-        “Buschböcke sind sehr gute Schwimmer.”,
-        “Sie sind Einzelgänger.”,
-        “Buschböcke haben weiße Flecken und Streifen auf ihrem Körper.”
-        ]
+    "spot": "Buschböcke sind oft in dichten Wald und Buschgebieten zu sehen.",
+    "fun_facts": [
+        "Buschböcke sind sehr gute Schwimmer.",
+        "Sie sind Einzelgänger.",
+        "Buschböcke haben weiße Flecken und Streifen auf ihrem Körper."
+    ]
 },
 {
-  “name”: “Wasserbock”,
-  “image”: “images/waterbuck.jpg”,
-  “options”: [“Büffel”, “Wasserbock”, “Antilope”],
-  “weight”: “250 kg”,
-  “height”: “1.4 Meter”,
-  "age": "18 Jahre",
-  "spot": "Wasserböcke sind oft in der Nähe von Wasserquellen zu finden.",
-  "fun_facts": [
-    "Wasserböcke haben einen weißen Ring um ihren Schwanz.",
-    "Sie sondern eine übel riechende, ölige Substanz ab, um ihr Fell wasserdicht zu machen.",
-    "Wasserböcke sind starke Schwimmer."
-  ]
+    "name": "Wasserbock",
+    "image": "images/waterbuck.jpg",
+    "options": ["Büffel", "Wasserbock", "Antilope"],
+    "weight": "250 kg",
+    "height": "1.4 Meter",
+    "age": "18 Jahre",
+    "spot": "Wasserböcke sind oft in der Nähe von Wasserquellen zu finden.",
+    "fun_facts": [
+        "Wasserböcke haben einen weißen Ring um ihren Schwanz.",
+        "Sie sondern eine übel riechende, ölige Substanz ab, um ihr Fell wasserdicht zu machen.",
+        "Wasserböcke sind starke Schwimmer."
+    ]
 },
 {
-  "name": "Steinböckchen",
-  "image": "images/steenbok.jpg",
-  "options": ["Hase", "Steinböckchen", "Kaninchen"],
-  "weight": "12 kg",
-  "height": "0.6 Meter",
-  "age": "8 Jahre",
-  "spot": "Steinböckchen sind oft allein in offenen Graslandschaften zu sehen.",
-  "fun_facts": [
-    "Steinböckchen sind sehr kleine Antilopen.",
-    "Sie können sich sehr gut im hohen Gras verstecken.",
-    "Steinböckchen graben Löcher, um sich vor Raubtieren zu verstecken."
-  ]
+    "name": "Steinböckchen",
+    "image": "images/steenbok.jpg",
+    "options": ["Hase", "Steinböckchen", "Kaninchen"],
+    "weight": "12 kg",
+    "height": "0.6 Meter",
+    "age": "8 Jahre",
+    "spot": "Steinböckchen sind oft allein in offenen Graslandschaften zu sehen.",
+    "fun_facts": [
+        "Steinböckchen sind sehr kleine Antilopen.",
+        "Sie können sich sehr gut im hohen Gras verstecken.",
+        "Steinböckchen graben Löcher, um sich vor Raubtieren zu verstecken."
+    ]
 },
 {
-  "name": "Rappenantilope",
-  "image": "images/sable_antelope.jpg",
-  "options": ["Spießbock", "Rappenantilope", "Kudu"],
-  "weight": "230 kg",
-  "height": "1.4 Meter",
-  "age": "18 Jahre",
-  "spot": "Rappenantilopen sind oft in bewaldeten Savannen zu sehen.",
-  "fun_facts": [
-    "Rappenantilopen haben lange, gebogene Hörner.",
-    "Sie sind sehr stark und können sich verteidigen.",
-    "Rappenantilopen haben ein glänzendes, schwarzes Fell."
-  ]
+    "name": "Rappenantilope",
+    "image": "images/sable_antelope.jpg",
+    "options": ["Spießbock", "Rappenantilope", "Kudu"],
+    "weight": "230 kg",
+    "height": "1.4 Meter",
+    "age": "18 Jahre",
+    "spot": "Rappenantilopen sind oft in bewaldeten Savannen zu sehen.",
+    "fun_facts": [
+        "Rappenantilopen haben lange, gebogene Hörner.",
+        "Sie sind sehr stark und können sich verteidigen.",
+        "Rappenantilopen haben ein glänzendes, schwarzes Fell."
+    ]
 },
 {
-  "name": "Nyala",
-  "image": "images/nyala.jpg",
-  "options": ["Kudu", "Nyala", "Impala"],
-  "weight": "120 kg",
-  "height": "1.1 Meter",
-  "age": "19 Jahre",
-  "spot": "Nyalas sind oft in dichten Busch- und Flussgebieten zu finden.",
-  "fun_facts": [
-    "Nyalas haben weiße Streifen auf ihrem Körper.",
-    "Sie sind sehr scheu und schwer fassbar.",
-    "Nyalas machen ein bellendes Geräusch, wenn sie alarmiert sind."
-  ]
+    "name": "Nyala",
+    "image": "images/nyala.jpg",
+    "options": ["Kudu", "Nyala", "Impala"],
+    "weight": "120 kg",
+    "height": "1.1 Meter",
+    "age": "19 Jahre",
+    "spot": "Nyalas sind oft in dichten Busch- und Flussgebieten zu finden.",
+    "fun_facts": [
+        "Nyalas haben weiße Streifen auf ihrem Körper.",
+        "Sie sind sehr scheu und schwer fassbar.",
+        "Nyalas machen ein bellendes Geräusch, wenn sie alarmiert sind."
+    ]
 },
 {
-  "name": "Wildhund",
-  "image": "images/wild_dog.jpg",
-  "options": ["Hyäne", "Wildhund", "Wolf"],
-  "weight": "30 kg",
-  "height": "0.75 Meter",
-  "age": "10 Jahre",
-  "spot": "Wildhunde sind oft in Rudeln in offenen Ebenen und Wäldern zu sehen.",
-  "fun_facts": [
-    "Wildhunde haben große, runde Ohren.",
-    "Sie sind ausgezeichnete Jäger.",
-    "Wildhunde sind sehr sozial und leben in Rudeln."
-  ]
+    "name": "Wildhund",
+    "image": "images/wild_dog.jpg",
+    "options": ["Hyäne", "Wildhund", "Wolf"],
+    "weight": "30 kg",
+    "height": "0.75 Meter",
+    "age": "10 Jahre",
+    "spot": "Wildhunde sind oft in Rudeln in offenen Ebenen und Wäldern zu sehen.",
+    "fun_facts": [
+        "Wildhunde haben große, runde Ohren.",
+        "Sie sind ausgezeichnete Jäger.",
+        "Wildhunde sind sehr sozial und leben in Rudeln."
+    ]
 },
 {
-  "name": "Gaukleradler",
-  "image": "images/bateleur_eagle.jpg",
-  "options": ["Adler", "Habicht", "Falke"],
-  "weight": "2.5 kg",
-  "height": "0.7 Meter",
-  "age": "27 Jahre",
-  "spot": "Gaukleradler sind oft hoch am Himmel zu sehen.",
-  "fun_facts": [
-    "Gaukleradler haben sehr kurze Schwänze.",
-    "Sie sind akrobatische Flieger.",
-    "Gaukleradler haben leuchtend rote Gesichter und Beine."
-  ]
+    "name": "Gaukleradler",
+    "image": "images/bateleur_eagle.jpg",
+    "options": ["Adler", "Habicht", "Falke"],
+    "weight": "2.5 kg",
+    "height": "0.7 Meter",
+    "age": "27 Jahre",
+    "spot": "Gaukleradler sind oft hoch am Himmel zu sehen.",
+    "fun_facts": [
+        "Gaukleradler haben sehr kurze Schwänze.",
+        "Sie sind akrobatische Flieger.",
+        "Gaukleradler haben leuchtend rote Gesichter und Beine."
+    ]
 },
 {
-  "name": "Sekretärvogel",
-  "image": "images/secretary_bird.jpg",
-  "options": ["Kranich", "Sekretärvogel", "Storch"],
-  "weight": "4 kg",
-  "height": "1.3 Meter",
-  "age": "15 Jahre",
-  "spot": "Sekretärvögel sind oft beim Gehen in offenen Graslandschaften zu sehen.",
-  "fun_facts": [
-    "Sekretärvögel haben lange Beine und Wimpern.",
-    "Sie jagen Schlangen und andere kleine Tiere.",
-    "Sekretärvögel können fliegen, bevorzugen aber zu gehen."
-  ]
+    "name": "Sekretärvogel",
+    "image": "images/secretary_bird.jpg",
+    "options": ["Kranich", "Sekretärvogel", "Storch"],
+    "weight": "4 kg",
+    "height": "1.3 Meter",
+    "age": "15 Jahre",
+    "spot": "Sekretärvögel sind oft beim Gehen in offenen Graslandschaften zu sehen.",
+    "fun_facts": [
+        "Sekretärvögel haben lange Beine und Wimpern.",
+        "Sie jagen Schlangen und andere kleine Tiere.",
+        "Sekretärvögel können fliegen, bevorzugen aber zu gehen."
+    ]
 }
 ];
