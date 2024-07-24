@@ -68,6 +68,7 @@
         "Nashörner haben ein schlechtes Sehvermögen, aber einen starken Geruchssinn."
     ]
 },
+
 {
     "name": "Büffel",
     "image": "images/buffalo.jpg",
