@@ -1,3 +1,4 @@
+const animalsDE = [
 {
     "name": "Löwe",
     "image": "images/lion.jpg",
