@@ -120,7 +120,10 @@ function displayAnimal() {
         <p><strong>${translations[currentLanguage].age}:</strong> ${animal.age}</p>
     `;
 
-    const optionsHtml = animal.options.map(option =>
+    const shuffledOptions = [...animal.options];
+    shuffleOptions(shuffledOptions);
+
+    const optionsHtml = shuffledOptions.map(option =>
         `<button onclick="checkAnswer('${option}')">${option}</button>`
     ).join('');
 
@@ -191,3 +194,41 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+// Shuffle the options for each animal
+function shuffleOptions(options) {
+    shuffleArray(options);
+}
+
+// Updated displayAnimal function to shuffle options
+function displayAnimal() {
+    console.log("displayAnimal function called");
+    if (currentAnimalIndex >= animalsToShow.length) {
+        console.log("No more animals to display");
+        endQuiz();
+        return;
+    }
+    const animal = animalsToShow[currentAnimalIndex];
+    console.log("Displaying animal:", animal);
+    document.getElementById('image-container').innerHTML = `<img src="${animal.image}" alt="${animal.name}">`;
+
+    document.getElementById('animal-info').innerHTML = `
+        <p><strong>${translations[currentLanguage].weight}:</strong> ${animal.weight}</p>
+        <p><strong>${translations[currentLanguage].height}:</strong> ${animal.height}</p>
+        <p><strong>${translations[currentLanguage].age}:</strong> ${animal.age}</p>
+    `;
+
+    const shuffledOptions = [...animal.options];
+    shuffleOptions(shuffledOptions);
+
+    const optionsHtml = shuffledOptions.map(option =>
+        `<button onclick="checkAnswer('${option}')">${option}</button>`
+    ).join('');
+
+    document.getElementById('options-container').innerHTML = optionsHtml;
+    document.getElementById('result').innerHTML = '';
+    document.getElementById('fact-container').innerHTML = '';
+    document.getElementById('where-to-spot-container').innerHTML = '';
+    document.getElementById('next-button').style.display = 'none';
+}
+
