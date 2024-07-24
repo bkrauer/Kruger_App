@@ -1,7 +1,7 @@
 window.animalsDE = [
 {
     "name": "Löwe",
-    "image": "images/lion.jpg",
+    "image": "images/lion.jpeg",
     "options": ["Tiger", "Leopard", "Löwe"],
     "weight": "250 kg",
     "height": "1.2 Meter",
@@ -15,7 +15,7 @@ window.animalsDE = [
 },
 {
     "name": "Elefant",
-    "image": "images/elephant.jpg",
+    "image": "images/elephant.jpeg",
     "options": ["Elefant", "Giraffe", "Büffel"],
     "weight": "6000 kg",
     "height": "3.3 Meter",
@@ -29,7 +29,7 @@ window.animalsDE = [
 },
 {
     "name": "Giraffe",
-    "image": "images/giraffe.jpg",
+    "image": "images/giraffe.jpeg",
     "options": ["Zebra", "Giraffe", "Antilope"],
     "weight": "1200 kg",
     "height": "5.5 Meter",
@@ -43,7 +43,7 @@ window.animalsDE = [
 },
 {
     "name": "Zebra",
-    "image": "images/zebra.jpg",
+    "image": "images/zebra.jpeg",
     "options": ["Pferd", "Zebra", "Esel"],
     "weight": "400 kg",
     "height": "1.4 Meter",
@@ -57,7 +57,7 @@ window.animalsDE = [
 },
 {
     "name": "Nashorn",
-    "image": "images/rhino.jpg",
+    "image": "images/rhino.jpeg",
     "options": ["Katze", "Ginsterkatze", "Nashorn"],
     "weight": "2300 kg",
     "height": "1.8 Meter",
@@ -72,7 +72,7 @@ window.animalsDE = [
 
 {
     "name": "Büffel",
-    "image": "images/buffalo.jpg",
+    "image": "images/buffalo.jpeg",
     "options": ["Büffel", "Antilope", "Bison"],
     "weight": "900 kg",
     "height": "1.7 Meter",
@@ -86,7 +86,7 @@ window.animalsDE = [
 },
 {
     "name": "Leopard",
-    "image": "images/leopard.jpg",
+    "image": "images/leopard.jpeg",
     "options": ["Löwe", "Gepard", "Leopard"],
     "weight": "90 kg",
     "height": "0.75 Meter",
@@ -100,7 +100,7 @@ window.animalsDE = [
 },
 {
     "name": "Gepard",
-    "image": "images/cheetah.jpg",
+    "image": "images/cheetah.jpeg",
     "options": ["Leopard", "Gepard", "Löwe"],
     "weight": "72 kg",
     "height": "0.9 Meter",
@@ -114,7 +114,7 @@ window.animalsDE = [
 },
 {
     "name": "Nilpferd",
-    "image": "images/hippo.jpg",
+    "image": "images/hippo.jpeg",
     "options": ["Elefant", "Nilpferd", "Nashorn"],
     "weight": "3200 kg",
     "height": "1.5 Meter",
@@ -128,7 +128,7 @@ window.animalsDE = [
 },
 {
     "name": "Gnu",
-    "image": "images/wildebeest.jpg",
+    "image": "images/wildebeest.jpeg",
     "options": ["Büffel", "Gnu", "Antilope"],
     "weight": "250 kg",
     "height": "1.4 Meter",
@@ -142,7 +142,7 @@ window.animalsDE = [
 },
 {
     "name": "Hyäne",
-    "image": "images/hyena.jpg",
+    "image": "images/hyena.jpeg",
     "options": ["Hund", "Wolf", "Hyäne"],
     "weight": "80 kg",
     "height": "0.8 Meter",
@@ -156,7 +156,7 @@ window.animalsDE = [
 },
 {
     "name": "Krokodil",
-    "image": "images/crocodile.jpg",
+    "image": "images/crocodile.jpeg",
     "options": ["Eidechse", "Krokodil", "Alligator"],
     "weight": "900 kg",
     "height": "5 Meter",
@@ -170,7 +170,7 @@ window.animalsDE = [
 },
 {
     "name": "Geier",
-    "image": "images/vulture.jpg",
+    "image": "images/vulture.jpeg",
     "options": ["Adler", "Eule", "Geier"],
     "weight": "12 kg",
     "height": "1 Meter",
@@ -184,7 +184,7 @@ window.animalsDE = [
 },
 {
     "name": "Pavian",
-    "image": "images/baboon.jpg",
+    "image": "images/baboon.jpeg",
     "options": ["Affe", "Gorilla", "Pavian"],
     "weight": "40 kg",
     "height": "0.75 Meter",
@@ -198,7 +198,7 @@ window.animalsDE = [
 },
 {
     "name": "Impala",
-    "image": "images/impala.jpg",
+    "image": "images/impala.jpeg",
     "options": ["Hirsch", "Antilope", "Impala"],
     "weight": "70 kg",
     "height": "1 Meter",
@@ -212,7 +212,7 @@ window.animalsDE = [
 },
 {
     "name": "Warzenschwein",
-    "image": "images/warthog.jpg",
+    "image": "images/warthog.jpeg",
     "options": ["Schwein", "Warzenschwein", "Eber"],
     "weight": "100 kg",
     "height": "0.85 Meter",
@@ -226,7 +226,7 @@ window.animalsDE = [
 },
 {
     "name": "Strauß",
-    "image": "images/ostrich.jpg",
+    "image": "images/ostrich.jpeg",
     "options": ["Emu", "Strauß", "Pfau"],
     "weight": "150 kg",
     "height": "2.8 Meter",
@@ -240,7 +240,7 @@ window.animalsDE = [
 },
 {
     "name": "Kudu",
-    "image": "images/kudu.jpg",
+    "image": "images/kudu.jpeg",
     "options": ["Hirsch", "Kudu", "Elch"],
     "weight": "270 kg",
     "height": "1.5 Meter",
@@ -254,7 +254,7 @@ window.animalsDE = [
 },
 {
     "name": "Buschbock",
-    "image": "images/bushbuck.jpg",
+    "image": "images/bushbuck.jpeg",
     "options": ["Antilope", "Buschbock", "Hirsch"],
     "weight": "80 kg",
     "height": "1 Meter",
@@ -269,7 +269,7 @@ window.animalsDE = [
 
 {
     "name": "Wasserbock",
-    "image": "images/waterbuck.jpg",
+    "image": "images/waterbuck.jpeg",
     "options": ["Büffel", "Wasserbock", "Antilope"],
     "weight": "250 kg",
     "height": "1.4 Meter",
@@ -283,7 +283,7 @@ window.animalsDE = [
 },
 {
     "name": "Steinböckchen",
-    "image": "images/steenbok.jpg",
+    "image": "images/steenbok.jpeg",
     "options": ["Hase", "Steinböckchen", "Kaninchen"],
     "weight": "12 kg",
     "height": "0.6 Meter",
@@ -297,7 +297,7 @@ window.animalsDE = [
 },
 {
     "name": "Rappenantilope",
-    "image": "images/sable_antelope.jpg",
+    "image": "images/sable_antelope.jpeg",
     "options": ["Spießbock", "Rappenantilope", "Kudu"],
     "weight": "230 kg",
     "height": "1.4 Meter",
@@ -311,7 +311,7 @@ window.animalsDE = [
 },
 {
     "name": "Nyala",
-    "image": "images/nyala.jpg",
+    "image": "images/nyala.jpeg",
     "options": ["Kudu", "Nyala", "Impala"],
     "weight": "120 kg",
     "height": "1.1 Meter",
@@ -325,7 +325,7 @@ window.animalsDE = [
 },
 {
     "name": "Wildhund",
-    "image": "images/wild_dog.jpg",
+    "image": "images/wild_dog.jpeg",
     "options": ["Hyäne", "Wildhund", "Wolf"],
     "weight": "30 kg",
     "height": "0.75 Meter",
@@ -339,7 +339,7 @@ window.animalsDE = [
 },
 {
     "name": "Gaukleradler",
-    "image": "images/bateleur_eagle.jpg",
+    "image": "images/bateleur_eagle.jpeg",
     "options": ["Adler", "Habicht", "Falke"],
     "weight": "2.5 kg",
     "height": "0.7 Meter",
@@ -353,7 +353,7 @@ window.animalsDE = [
 },
 {
     "name": "Sekretärvogel",
-    "image": "images/secretary_bird.jpg",
+    "image": "images/secretary_bird.jpeg",
     "options": ["Kranich", "Sekretärvogel", "Storch"],
     "weight": "4 kg",
     "height": "1.3 Meter",
