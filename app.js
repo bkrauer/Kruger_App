@@ -172,7 +172,7 @@ function endQuiz() {
     document.getElementById('app').innerHTML = `
         <h1>${translations[currentLanguage].quizCompleted}</h1>
         <p>${translations[currentLanguage].finalScore} ${score} ${translations[currentLanguage].outOf} ${animalsToShow.length}</p>
-        <button onclick="initQuiz()">${translations[currentLanguage].playAgain}</button>
+        <button id="play-again-button" onclick="initQuiz()">${translations[currentLanguage].playAgain}</button>
     `;
 }
 
