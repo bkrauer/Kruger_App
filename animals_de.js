@@ -1,4 +1,4 @@
-const animalsDE = [
+window.animalsDE = [
 {
     "name": "Löwe",
     "image": "images/lion.jpg",
