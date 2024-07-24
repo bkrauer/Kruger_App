@@ -12,6 +12,7 @@
             padding: 10px;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.4; /* Adjusted line-height for smaller "Zeilenabstand" */
         }
         #header {
             background-color: #333;
@@ -35,10 +36,8 @@
             background-color: #5a6268;
         }
         #image-container img {
-            max-width: 100%;
-            height: auto;
-            width: 100%;
-            height: 450px; /* Increased the height by 150% */
+            width: 100%; /* Ensure the image fits the container */
+            height: auto; /* Maintain aspect ratio */
         }
         #options-container, #next-button-container {
             display: flex;
@@ -104,7 +103,7 @@
                 text-align: center;
             }
             #image-container img {
-                height: 300px; /* Adjust for smaller screens */
+                height: auto; /* Adjust for smaller screens */
             }
         }
     </style>
