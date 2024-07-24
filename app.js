@@ -11,7 +11,7 @@ const translations = {
         score: "Score",
         nextButton: "Next Animal",
         correct: "Correct!",
-        incorrect: "Incorrect. The correct answer is",
+        incorrect: "Wrong! The correct answer is",
         quizCompleted: "Quiz Completed!",
         finalScore: "Your final score is:",
         outOf: "out of",
@@ -137,15 +137,16 @@ function checkAnswer(selectedOption) {
     const animal = animalsToShow[currentAnimalIndex];
     if (selectedOption === animal.name) {
         document.getElementById('result').innerHTML = translations[currentLanguage].correct;
+        document.getElementById('result').className = 'correct';
         score++;
         updateUI();
     } else {
         document.getElementById('result').innerHTML = `${translations[currentLanguage].incorrect} ${animal.name}.`;
+        document.getElementById('result').className = 'wrong';
     }
     displayAnimalInfoAndFunFacts(animal);
     document.getElementById('next-button').style.display = 'block';
 }
-
 function displayAnimalInfoAndFunFacts(animal) {
     document.getElementById('animal-info').innerHTML += `
         <p><strong>${translations[currentLanguage].whereToSpot}:</strong> ${animal.spot}</p>
