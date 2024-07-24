@@ -1,4 +1,3 @@
-
 console.log("App.js loaded");
 
 let animalsEN = [];
@@ -98,7 +97,7 @@ function loadAnimalData() {
     if (typeof window.animalsDE !== 'undefined') {
         animalsDE = window.animalsDE;
     }
-    
+
     if (animalsEN.length === 0 && animalsDE.length === 0) {
         console.error("No animal data loaded!");
     } else {
@@ -117,18 +116,18 @@ function displayAnimal() {
     const animal = animalsToShow[currentAnimalIndex];
     console.log("Displaying animal:", animal);
     document.getElementById('image-container').innerHTML = `<img src="${animal.image}" alt="${animal.name}">`;
-    
+
     document.getElementById('animal-info').innerHTML = `
         <p><strong>${translations[currentLanguage].weight}:</strong> ${animal.weight}</p>
         <p><strong>${translations[currentLanguage].height}:</strong> ${animal.height}</p>
         <p><strong>${translations[currentLanguage].age}:</strong> ${animal.age}</p>
         <p><strong>${translations[currentLanguage].whereToSpot}:</strong> ${animal.spot}</p>
     `;
-    
-    const optionsHtml = animal.options.map(option => 
+
+    const optionsHtml = animal.options.map(option =>
         `<button onclick="checkAnswer('${option}')">${option}</button>`
     ).join('');
-    
+
     document.getElementById('options-container').innerHTML = optionsHtml;
     document.getElementById('result').innerHTML = '';
     document.getElementById('fact-container').innerHTML = '';
@@ -178,8 +177,15 @@ function endQuiz() {
 document.getElementById('next-button').addEventListener('click', nextAnimal);
 
 // Start the quiz
-setLanguage('en');
+window.onload = function() {
+    loadAnimalData();
+    setLanguage('en');
+};
 
-// At the end of app.js
-window.onload = loadAnimalData;
-
+// Helper function to shuffle the array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
