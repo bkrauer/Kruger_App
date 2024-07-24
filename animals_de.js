@@ -108,7 +108,7 @@ window.animalsDE = [
     "spot": "Geparden sind normalerweise in offenen Ebenen und Savannen zu finden.",
     "fun_facts": [
         "Geparden sind die schnellsten Landtiere.",
-        "Sie können bis zu 70 mph rennen.",
+        "Sie können bis zu 115 kmh rennen.",
         "Geparden haben schwarze 'Tränenstreifen' im Gesicht."
     ]
 },
