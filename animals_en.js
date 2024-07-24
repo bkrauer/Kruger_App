@@ -1,4 +1,4 @@
-const animalsEN = [
+window.animalsEN = [
   {
     "name": "Lion",
     "image": "images/lion.jpg",
