@@ -1,28 +1,30 @@
 window.animalsDE = [
 {
     "name": "Nina",
-    "image": "images/nina.jpeg",
+    "image": "images/nina_1.jpeg",
     "options": ["Nina", "Noura", "Binia"],
-    "weight": "19 kg",
-    "height": "1.25 Meter",
+    "weight": "20 kg",
+    "height": "1.23 Meter",
     "age": "6 Jahre",
-    "spot": "Nina spielt sehr gerne Klavier.",
+    "spot": "Nina sitzt gerne am Klavier.",
     "fun_facts": [
-        "Nina ist schon in der Pfadi.",
-        "Sie isst sehr gerne Glace."
+        "Sie singt sehr gerne. Momentan THE CODE von Nemo.",
+        "Sie hasst gekochtes Gemüse.",
+        "Ihren Papi nennt sie liebevoll Schleifsack."
     ]
 },
 {
     "name": "Binia",
-    "image": "images/binia.jpeg",
+    "image": "images/binia_1.jpeg",
     "options": ["Nina", "Noura", "Binia"],
-    "weight": "23 kg",
-    "height": "1.25 Meter",
+    "weight": "24 kg",
+    "height": "1.28 Meter",
     "age": "8 Jahre",
-    "spot": "Binia ist Samstags of in der Pfadi zu finden.",
+    "spot": "Binia ist häufig in einer selbstgebastelten Hütte anzutreffen.",
     "fun_facts": [
-        "Binia fährt sehr gerne Ski.",
-        "Sie isst sehr gerne Kuchen."
+        "Sie hört fürs Leben gerne Märchen.",
+        "Sie hasst es sich die Haare zo föhnen.",
+        "In der Pfadi heisst sie Allegria."
     ]
 },
 {
