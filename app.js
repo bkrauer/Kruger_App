@@ -103,6 +103,18 @@ function loadAnimalData() {
     }
 }
 
+function getRandomImage(animalName) {
+    const imagePath = `images/${animalName.toLowerCase()}`;
+    const imageFiles = [];
+
+    for (let i = 1; i <= 5; i++) {
+        imageFiles.push(`${imagePath}_${i}.jpeg`);
+    }
+
+    const randomIndex = Math.floor(Math.random() * imageFiles.length);
+    return imageFiles[randomIndex];
+}
+
 function displayAnimal() {
     console.log("displayAnimal function called");
     if (currentAnimalIndex >= animalsToShow.length) {
@@ -111,8 +123,9 @@ function displayAnimal() {
         return;
     }
     const animal = animalsToShow[currentAnimalIndex];
+    const randomImage = getRandomImage(animal.name);
     console.log("Displaying animal:", animal);
-    document.getElementById('image-container').innerHTML = `<img src="${animal.image}" alt="${animal.name}">`;
+    document.getElementById('image-container').innerHTML = `<img src="${randomImage}" alt="${animal.name}">`;
 
     document.getElementById('animal-info').innerHTML = `
         <p><strong>${translations[currentLanguage].weight}:</strong> ${animal.weight}</p>
