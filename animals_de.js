@@ -17,13 +17,13 @@ window.animalsDE = [
     "name": "Binia",
     "image": "images/binia_1.jpeg",
     "options": ["Nina", "Noura", "Binia"],
-    "weight": "24 kg",
+    "weight": "26.4 kg",
     "height": "1.28 Meter",
     "age": "8 Jahre",
     "spot": "Binia ist häufig in einer selbstgebastelten Hütte anzutreffen.",
     "fun_facts": [
         "Sie hört fürs Leben gerne Märchen.",
-        "Sie hasst es sich die Haare zo föhnen.",
+        "Sie hasst es sich die Haare zu föhnen.",
         "In der Pfadi heisst sie Allegria."
     ]
 },
